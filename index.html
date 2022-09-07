@@ -27,6 +27,30 @@
             </ul>
         </div>
     </header>
-    
+    <div class="sub-heading">
+        <h2>Choose your weapon!</h2>
+    </div>
+    <!-- shows the interactive buttons for the user to click and play game-->
+    <div class="weapons">
+        <button aria-label="sword" class="weapon" data-weapons="sword">⚔️</button>
+        <button aria-label="shield" class="weapon" data-weapons="shield">🛡️</button>
+        <button aria-label="axe" class="weapon" data-weapons="axe">🪓</button>
+    </div>
+    <!--Displays the score beneath the game-area-->
+    <div class="score">
+        <p>BATTLES WON: <span id="won">0</span></p>
+        <p>BATTLES DRAW: <span id="draw">0</span></p>
+        <p>BATTLES LOST: <span id="lost">0</span></p>
+    </div>
+    <div class="game-area">
+        <div id="display-message"></div>
+        <h2>User</h2>
+        <h2>computer</h2>
+        <span id="player-healthbar">0</span>
+        <span id="computer-healthbar">0</span>
+        <img id="player" src="assets/images/character1.png" alt="viking character Player">
+        <img id="computer" src="assets/images/character2.png" alt="viking character Computer">
+        <h3>vs</h3>
+    </div>
 </body>
 </html>
