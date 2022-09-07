@@ -56,3 +56,45 @@ function playGame(playersWeapon) {
     displayMessage();
     
   }
+  
+  /**
+ * Adds points to battles won/lost or drawn.
+ */
+
+function incrementScore() {
+
+  // A Draw 
+  if (playersWeapon === computersWeapon) {
+      ++battlesDraw.innerText;
+      battlesDraw = true;
+
+    // chances for player to win
+
+  } else if (playersWeapon === 'axe' && computersWeapon === 'shield') {
+      ++battlesWon.innerText;
+      battlesWon = true;
+
+  } else if (playersWeapon === 'shield' && computersWeapon === 'sword') {
+      ++battlesWon.innerText;
+      battlesWon = true;
+
+  } else if (playersWeapon === 'sword' && computersWeapon === 'axe') {
+      ++battlesWon.innerText;
+      battlesWon = true;
+
+    // chance for computer to win 
+
+  } else if (playersWeapon === 'sword' && computersWeapon === 'shield') {
+      ++battlesLost.innerText;
+      battlesLost= true;
+
+  } else if (playersWeapon === 'shield' && computersWeapon === 'axe') {
+      ++battlesLost.innerText;
+      battlesLost= true;
+
+  } else if (playersWeapon === 'axe' && computersWeapon === 'sword') {
+      ++battlesLost.innerText;
+      battlesLost= true;
+  }
+
+}
