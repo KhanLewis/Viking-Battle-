@@ -79,6 +79,7 @@ shield or a battles axe. Each weapon has the chance to win or lose against the o
  * **JavaScript**- I used JavaScript to add interactivness, and to display messages within my Game, The way I managed this is by providing a link to the external file.
  * **Gitpod**-I used Gitpod to load all my repositories and run my coding platform.
  * **Github**- I used Github to store all my repository data and to upload my webpage to the internet.
+ * **Balsamiq**- I used this to help layout my webpage.
 
 ---
 
@@ -137,7 +138,8 @@ shield or a battles axe. Each weapon has the chance to win or lose against the o
   ---
 
   # **Supported Screen Sizes:**
-  I have tested these sizes using googles developer tools.
+  I have tested these device sizes using googles developer tools.
+
     * Iphone 12 pro
     * Iphone SE
     * Iphone XR
@@ -162,3 +164,6 @@ shield or a battles axe. Each weapon has the chance to win or lose against the o
    * When it had loaded adn you can view your code, within the terminal type "python3 -m http.server"
    * Wait for the pop up in the bottom right hand corner of Gitpod.
    * Select the _open browser_ option and it will redirect you to your webpage.
+
+# **CREDITS**
+  * Code Institute.
