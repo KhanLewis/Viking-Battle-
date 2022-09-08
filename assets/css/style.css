@@ -25,7 +25,6 @@ header {
     font-size: 3rem;
     padding: 30px;
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
-
 }
 
 #rules {
@@ -42,7 +41,7 @@ header {
     font-size: 1.2rem;
     transition: 130ms;
 }
-
+/* Hides rules until user hovers over them */
 .hidden-rules {
     display: none;
     position: absolute;
@@ -80,8 +79,6 @@ header {
     cursor: pointer;
     font-size: 3.7rem;
     padding: 3.5%;
-    /* margin-bottom: 2%;
-    margin-top: 2%; */
     transition: 130ms;
 }
 
@@ -109,12 +106,11 @@ header {
 #display-message {
     position: absolute;
     top: 8vh;
-    transform: translate(-50, -50);
     font-size: 1.2rem;
     font-weight: bolder;
     color: white;
     position: absolute;
-    
+    text-align: center;
 }
 
 .game-area>img {
@@ -125,7 +121,6 @@ header {
     color: white;
     position: absolute;
     top: 22vh;
-    transform: translate(-50, -50);
     font-size: 3rem;
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
@@ -149,7 +144,7 @@ header {
     grid-template-columns: repeat(3, 25%);
     justify-items: center;
     justify-content: center;
-    font-size: 1.rem;
+    font-size: 1rem;
     font-weight: bolder
 }
 
@@ -157,6 +152,8 @@ footer {
     height: 100px;
     margin-top: 30px;
 }
+
+/* Makes the game responisve on all devices*/
 
 @media screen and (max-width: 740px) {
     .game-area>img {

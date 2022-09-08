@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Viking Battle!</title>
 </head>
+
 <body>
     <header>
         <h1 id="heading">Viking Battle!</h1>
         <button id="rules">
             <span>Rules</span>
         </button>
+        <!-- shows rules in top right of webpage with hover attribute -->
         <div class="hidden-rules">
             <h4>Welcome to Viking Battle!</h4>
             <ul>
@@ -42,12 +44,11 @@
         <p>BATTLES DRAW: <span id="draw">0</span></p>
         <p>BATTLES LOST: <span id="lost">0</span></p>
     </div>
+    <!-- shows the main game area -->
     <div class="game-area">
         <div id="display-message"></div>
         <h2>User</h2>
         <h2>computer</h2>
-        <span id="player-healthbar">0</span>
-        <span id="computer-healthbar">0</span>
         <img id="player" src="assets/images/character1.png" alt="viking character Player">
         <img id="computer" src="assets/images/character2.png" alt="viking character Computer">
         <h3>vs</h3>
@@ -60,4 +61,5 @@
     <!-- link to javascript-->
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
