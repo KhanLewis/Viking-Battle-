@@ -10,6 +10,7 @@
  let playersWeapon;
  let randomWeapon;
  let computersWeapon;
+ let displayMessageResult;
  
  /** 
   *  Adds event listner to the buttons so the user can select a weapon
@@ -56,7 +57,7 @@ function playGame(playersWeapon) {
     displayMessage();
     
   }
-  
+
   /**
  * Adds points to battles won/lost or drawn.
  */
@@ -64,37 +65,45 @@ function playGame(playersWeapon) {
 function incrementScore() {
 
   // A Draw 
+
   if (playersWeapon === computersWeapon) {
       ++battlesDraw.innerText;
-      battlesDraw = true;
+      displayMessageResult = 'You Draw'
 
     // chances for player to win
 
   } else if (playersWeapon === 'axe' && computersWeapon === 'shield') {
       ++battlesWon.innerText;
-      battlesWon = true;
+      displayMessageResult = 'You Won'
 
   } else if (playersWeapon === 'shield' && computersWeapon === 'sword') {
       ++battlesWon.innerText;
-      battlesWon = true;
+      displayMessageResult = 'You Won'
+     
 
   } else if (playersWeapon === 'sword' && computersWeapon === 'axe') {
       ++battlesWon.innerText;
-      battlesWon = true;
-
+      displayMessageResult = 'You Won'
+     
     // chance for computer to win 
 
   } else if (playersWeapon === 'sword' && computersWeapon === 'shield') {
       ++battlesLost.innerText;
-      battlesLost= true;
+      displayMessageResult = 'You Lost'
+     
 
   } else if (playersWeapon === 'shield' && computersWeapon === 'axe') {
       ++battlesLost.innerText;
-      battlesLost= true;
+      displayMessageResult = 'You Lost'
+     
 
   } else if (playersWeapon === 'axe' && computersWeapon === 'sword') {
       ++battlesLost.innerText;
-      battlesLost= true;
+      displayMessageResult = 'You Lost'
+    
   }
-
+}
+function displayMessage(){
+  message = document.getElementById('display-message')
+  message.innerText = displayMessageResult;
 }

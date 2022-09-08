@@ -1,108 +1,81 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **VIKING BATTLE !**
 
-Welcome KhanLewis,
+## **Introduction:**
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Viking battle, is a luck-based game where the user can select a choice of three weapons, sword
+shield or a battles axe. Each weapon has the chance to win or lose against the other weapons. For example, sword beats axe and shield beats sword. The purpose of this game is to give the user a quick and enjoyable experience in the unexpected reality off battling Vikings! The aim of the game is to defeat as many Vikings as possible without losing to many battles. But battles lost isnt considered a truly terrible thing to happen, according to mythology a Viking that lost in battle , their souls would be collected by Valkyries and taken to Valhalla where they would drink alongside of the gods!
 
 ---
 
-Happy coding!
+## **User stories:**
+
+* As a visiting user I would like to choose from  a selection of weapons.
+* As a visiting user I would like to be able to read the rules.
+* As a visiting user I would like to see my score.
+
+---
+
+## **Features:**
+
+####  **Header:**
+ * This contians the _**Title**_ and _**Rules**_ section. The Title shows the name of the game in bold lettering and a easy to read font. The Rules section is a button that can be pressed so the user can understand the rules of the game. The rules button also follows the same styles as the title but is more interactive with a _hover-pseudo-class_ that has a timed effect.
+
+#### **Sub-heading:**
+ * The _**Subheading**_ contains the text-content of _**"Choose Your Weapon!"**_. This text follows the same styles as the _Title_ and _Rules_ button, but it has an additional style to make it seperate from the header. This style is aimed to make the sub-heading seem like it is sticking out from the page. Providing the user with a clear differnce between the sections of the page.
+
+#### **Weapons:**
+ * The _**Weapons**_ section contains three buttons in the form of images, _**Sword:**_ ⚔️, _**Shield:**_ 🛡️, _**Axe:**_ 🪓. These buttons a the main interaction of the game, they allow the user to initiate the games function. These buttons have a similar feature to the _Rules_ button. Upon hover the button will grow in size through and then shrink when the user is not hovering anymore, the button will return to its original size after a short delay giving the buttons a smoother interactive feel for the user.
+
+ #### **Game Section:**
+ * The main eye catcher of the page. This section is made to help the user visiualise the cartooney battle between the two characters. It contains the Users character and the Computers character alongside with the the names user and computer to help the user know whos character is theirs. it also features a cool viking-looking background image where the characters a standing on.
+
+ #### **Score:**
+  * The _**Score**_ section sits beneath the _Game-section_ it tells the user the battles they have won, lost or drawn.It is shown by numbers with the score starting at 0.
+
+ #### **Footer:** 
+   * The _**Footer**_ contains the text of _**"Onwards To Valhalla!"**_ and also shares the exact same styling as the _Sub-heading_ section.
+
+---
+
+## **Future features:**
+ * **Feature 1:** The user will be able to select their own characters.
+  * **Feature 2:** The user will be able to have a choice off more weapons.
+   * **Feature 3:** The user will have interactive sounds that play upon initialising the games functions.
+
+---
+
+## **Typography and Colour-Scheme**
+    * Typography:
+      * Aboreto
+      * sans-serif
+    * Colour-Scheme:
+      * #FAEBD7-Off White
+      * #000000-Black
+      * #FFFFFF-White 
+
+---
+
+## **Wireframes:**
+**Header and Rules Button:**
+<img src="images-readme/Viking-battle-header-WF.png" width="100%">
+
+**Sub-heading and Weapons buttons:**
+<img src="images-readme/Viking-battle-subheading.png" width="100%">
+
+**Main Game Section:**
+
+<img src="images-readme/Viking-battle-maingame.png" width="100%">
+
+**Score section:**
+
+<img src="images-readme/Viking-battle-score.png" width="100%">
+
+---
+
+## **Technology**
+
+ * CSS- I used css to give my HTML and JavaScript so styles that work onside eachother,I achieved this by adding a style.css file into my code and a link within the head of the document so that it can be accessed.
+ * HTML- I used HTML to add the base content to my game i used it to layout the sturcture of my game so it is user freindly and interactive.
+ * JavaScript- I used JavaScript to add interactivness, and to display messages within my Game, The way I managed this is by providing a link to the external file.
+ * Gitpod-I used Gitpod to load all my repositories and run my coding platform.
+ * Github- I used Github to store all my repository data and to upload my webpage to the internet.
