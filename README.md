@@ -74,8 +74,93 @@ shield or a battles axe. Each weapon has the chance to win or lose against the o
 
 ## **Technology**
 
- * CSS- I used css to give my HTML and JavaScript so styles that work onside eachother,I achieved this by adding a style.css file into my code and a link within the head of the document so that it can be accessed.
- * HTML- I used HTML to add the base content to my game i used it to layout the sturcture of my game so it is user freindly and interactive.
- * JavaScript- I used JavaScript to add interactivness, and to display messages within my Game, The way I managed this is by providing a link to the external file.
- * Gitpod-I used Gitpod to load all my repositories and run my coding platform.
- * Github- I used Github to store all my repository data and to upload my webpage to the internet.
+ * **CSS**- I used css to give my HTML and JavaScript so styles that work onside eachother,I achieved this by adding a style.css file into my code and a link within the head of the document so that it can be accessed.
+ * **HTML**- I used HTML to add the base content to my game i used it to layout the sturcture of my game so it is user freindly and interactive.
+ * **JavaScript**- I used JavaScript to add interactivness, and to display messages within my Game, The way I managed this is by providing a link to the external file.
+ * **Gitpod**-I used Gitpod to load all my repositories and run my coding platform.
+ * **Github**- I used Github to store all my repository data and to upload my webpage to the internet.
+
+---
+
+## **Testing:**
+ ### HTML VALIDATOR- 
+   NO errors or bugs found within the code. Validated on Official W3C Validator -[CLICK HERE](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkhanlewis.github.io%2FViking-Battle-%2F)
+ ### CSS Validator-
+   NO errors found within CSS code. Validated by  Official Jigsaw - [CLICK HERE](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkhanlewis.github.io%2FViking-Battle-%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+ ### JShint-
+ NO errors or bugs found within code. Checked on JShint.
+
+ ### Light House:
+ <img src="images-readme/viking-battle-lighthouse.png" width="100%">
+
+ ---
+
+ # **Test Cases:**
+
+   * **STEP ONE:** The user will notice a title of **"Viking Battle!"**   and a  **"Rules"**  button.
+   * **STEP TWO:** The user will notice that the rules button is hoverable and then will see a set of rules.
+
+   <img src="images-readme/viking-battle-wp-header.png" width="100%">
+
+   * **STEP THREE:** The user will notice a sub-heading of **"CHoose Your Weapon!"**.
+   * **STEP FOUR:** The user will notice three icons : **"⚔️"** , **"🛡️"** , **"🪓"** .
+   * **STEP FIVE:** The user will see that the icons are interative and they grow once hovered over.
+
+   <img src="images-readme/viking-battle-wp-sub-weapons.png" width="100%">
+
+   * **STEP SIX:** The user will notice three scores **"Battles Won:"** , **"Battles Draw:"** , **"Battles Lost:"** . 
+   * **STEP SEVEN:** The user will see the games area with the two names **"USER"** , **"COMPUTER"** . 
+   * **STEP EIGHT:** The user will notice two characters either side of  VS.
+   * **STEP NINE:** The user will notice ones they have clicked a weapon a pop up message.
+   * **STEP TEN:** The user will notice the scores incrementing.
+
+   <img src="images-readme/viking-battle-wp-score-ga.png" width="100%">
+
+   **STEP ELEVEN:** The user will see a footer with the words **"Onwards To Valhalla!"**
+   
+   <img src="images-readme/viking-battle-wp-footer.png" width="100%">
+
+## **Mobile Phone Image:**
+
+   <img src="images-readme/viking-battle-mobilephone.png" width="50%" height = "50%">
+
+   ---
+
+# **Fixed Bugs**
+  * Score wouldnt increment on click.
+  * Display message would show undefined
+  * Display message would cause side scrolling.
+  * Rules drop down would casue side scrolling.
+  * Rules drop down wouldnt show 
+  * Display message would show wrong result.
+
+  ---
+
+  # **Supported Screen Sizes:**
+  I have tested these sizes using googles developer tools.
+    * Iphone 12 pro
+    * Iphone SE
+    * Iphone XR
+    * Nest Hub Max
+
+  ---
+
+# **Deployment**
+## **GITHUB:**
+ * This site was deployed on Github using their Github pages. The steps I took to do this  are shown below:
+   * Open up Github.
+   * Go into up your chosen repository within Github.
+   * At the top of the repository (**not the page**) scroll over to and click on settings.
+   * Once  you are within settings navigate down to the pages tab on the left hand side.
+   * When within the pages section click on the branch option and select "main", then click save.
+   * Wait for a couple of minutes for it to load.Once loaded you should see a message saying your site is live with the URL.
+
+## **GITPOD:**
+ * This site was also viewed through a browser using Gitpod, This is how I achieved this :
+   * Open your repository through Github.
+   * At the top of yout repository click on the gitpod button.
+   * When it had loaded adn you can view your code, within the terminal type "python3 -m http.server"
+   * Wait for the pop up in the bottom right hand corner of Gitpod.
+   * Select the _open browser_ option and it will redirect you to your webpage.
+
+
