@@ -85,7 +85,7 @@ shield or a battles axe. Each weapon has the chance to win or lose against the o
 ## **Testing:**
  ### HTML VALIDATOR- 
    NO errors or bugs found within the code. Validated on Official W3C Validator -[CLICK HERE](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkhanlewis.github.io%2FViking-Battle-%2F)
- ### CSS Validator-
+ ### CSS VALIDATOR-
    NO errors found within CSS code. Validated by  Official Jigsaw - [CLICK HERE](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkhanlewis.github.io%2FViking-Battle-%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
  ### JShint-
  NO errors or bugs found within code. Checked on JShint.
@@ -162,5 +162,3 @@ shield or a battles axe. Each weapon has the chance to win or lose against the o
    * When it had loaded adn you can view your code, within the terminal type "python3 -m http.server"
    * Wait for the pop up in the bottom right hand corner of Gitpod.
    * Select the _open browser_ option and it will redirect you to your webpage.
-
-
