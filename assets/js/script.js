@@ -53,7 +53,7 @@ function playGame(playersWeapon) {
     };
     console.log(playersWeapon)
     console.log(computersWeapon)
-    incrementScore();
+    possibleChances();
     displayMessage();
     
   }
@@ -62,44 +62,44 @@ function playGame(playersWeapon) {
  * Adds points to battles won/lost or drawn.
  */
 
-function incrementScore() {
+function possibleChances() {
 
   // A Draw 
 
   if (playersWeapon === computersWeapon) {
       ++battlesDraw.innerText;
-      displayMessageResult = 'You Draw'
+      displayMessageResult = `You chose ${playersWeapon} and your opponent chose ${computersWeapon}. ITS A DRAW`
 
     // chances for player to win
 
   } else if (playersWeapon === 'axe' && computersWeapon === 'shield') {
       ++battlesWon.innerText;
-      displayMessageResult = 'You Won'
+      displayMessageResult = `You chose ${playersWeapon} and your opponent chose ${computersWeapon}. YOU WON!`
 
   } else if (playersWeapon === 'shield' && computersWeapon === 'sword') {
       ++battlesWon.innerText;
-      displayMessageResult = 'You Won'
+      displayMessageResult = `You chose ${playersWeapon} and your opponent chose ${computersWeapon}. YOU WON!`
      
 
   } else if (playersWeapon === 'sword' && computersWeapon === 'axe') {
       ++battlesWon.innerText;
-      displayMessageResult = 'You Won'
+      displayMessageResult = `You chose ${playersWeapon} and your opponent chose ${computersWeapon}. YOU WON!`
      
     // chance for computer to win 
 
   } else if (playersWeapon === 'sword' && computersWeapon === 'shield') {
       ++battlesLost.innerText;
-      displayMessageResult = 'You Lost'
+      displayMessageResult = `You chose ${playersWeapon} and your opponent chose ${computersWeapon}. YOU LOST!`
      
 
   } else if (playersWeapon === 'shield' && computersWeapon === 'axe') {
       ++battlesLost.innerText;
-      displayMessageResult = 'You Lost'
+      displayMessageResult = `You chose ${playersWeapon} and your opponent chose ${computersWeapon}. YOU LOST!`
      
 
   } else if (playersWeapon === 'axe' && computersWeapon === 'sword') {
       ++battlesLost.innerText;
-      displayMessageResult = 'You Lost'
+      displayMessageResult = `You chose ${playersWeapon} and your opponent chose ${computersWeapon}. YOU LOST!`
     
   }
 }
