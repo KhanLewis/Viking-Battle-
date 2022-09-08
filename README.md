@@ -1,6 +1,8 @@
 # **VIKING BATTLE !**
 
 ## **Introduction:**
+## **LIVE WEBSITE URL:**
+ https://khanlewis.github.io/Viking-Battle-/
 
 Viking battle, is a luck-based game where the user can select a choice of three weapons, sword
 shield or a battles axe. Each weapon has the chance to win or lose against the other weapons. For example, sword beats axe and shield beats sword. The purpose of this game is to give the user a quick and enjoyable experience in the unexpected reality off battling Vikings! The aim of the game is to defeat as many Vikings as possible without losing to many battles. But battles lost isnt considered a truly terrible thing to happen, according to mythology a Viking that lost in battle , their souls would be collected by Valkyries and taken to Valhalla where they would drink alongside of the gods!
